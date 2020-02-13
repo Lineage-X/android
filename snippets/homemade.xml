@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <project path="vendor/lineage" name="android_vendor_lineage" remote="homemade" />
+    <project path="frameworks/base" name="android_frameworks_base" remote="homemade" />
 </manifest>
