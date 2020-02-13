@@ -16,6 +16,10 @@
            review="android-review.googlesource.com"
            revision="refs/tags/android-10.0.0_r27" />
 
+  <remote  name="homemade"
+           fetch="https://github.com/LOS-HomeMade"
+           revision="ten" />
+
   <default revision="refs/heads/lineage-17.1"
            remote="github"
            sync-c="true"
