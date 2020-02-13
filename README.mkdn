@@ -13,7 +13,7 @@ repo init -u https://github.com/LOS-HomeMade/android -b ten
 ```
 Then to sync up:
 ```
-repo sync
+repo sync -c -f --force-sync --no-tags --no-clone-bundle -j$(nproc --all) --optimized-fetch --prune
 ```
 Please see the [LineageOS Wiki](https://wiki.lineageos.org/) for building instructions, by device.
 
