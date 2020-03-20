@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    <project path="android" name="android" remote="homemade" />
     <project path="vendor/lineage" name="android_vendor_lineage" remote="homemade" />
     <project path="frameworks/base" name="android_frameworks_base" remote="homemade" />
     <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="homemade" />
