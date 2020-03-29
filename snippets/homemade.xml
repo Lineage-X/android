@@ -6,4 +6,5 @@
     <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="homemade" />
     <project path="lineage-sdk" name="android_lineage-sdk" remote="homemade" />
     <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="homemade" />
+    <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="homemade" />
 </manifest>
