@@ -13,4 +13,8 @@
     <project path="system/core" name="android_system_core" remote="lineagex" />
     <project path="packages/apps/LineageParts" name="android_packages_apps_LineageParts" remote="lineagex"/>
     <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="lineagex" />
+    <project path="build/soong" name="android_build_soong" remote="lineagex" >
+        <linkfile src="root.bp" dest="Android.bp" />
+        <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+    </project>
 </manifest>
