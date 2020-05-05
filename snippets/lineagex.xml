@@ -17,4 +17,5 @@
         <linkfile src="root.bp" dest="Android.bp" />
         <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
+    <project path="art" name="android_art" remote="lineagex" />
 </manifest>
