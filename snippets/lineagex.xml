@@ -17,4 +17,5 @@
         <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
     <project path="art" name="android_art" remote="lineagex" />
+    <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="lineagex"/>
 </manifest>
